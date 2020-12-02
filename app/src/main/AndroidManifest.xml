@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ThusaAppBathoPele">
+        <activity android:name=".TeacherPortal"></activity>
+        <activity android:name=".StudentPortal" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".WelcomeScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
