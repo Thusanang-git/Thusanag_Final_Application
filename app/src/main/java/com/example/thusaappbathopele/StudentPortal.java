@@ -30,6 +30,12 @@ public class StudentPortal extends AppCompatActivity {
                 startActivity(new Intent(StudentPortal.this, LearningMaterialPortal.class));
             }
         });
+        MatchingGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StudentPortal.this, TestYourMemory.class));
+            }
+        });
 
 
     }
